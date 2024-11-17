@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body
+        {
+            background-color: rgb(196, 12, 12);
+        }
+        #yourname{
+            margin-left: 10px;
+            padding-top: 25px;
+            padding-bottom: 25px;
+            
+            background-color: rgb(10, 66, 118);
+
+        }
+        .data{
+            background-color: rgb(234, 212, 17);
+            margin-top: 25px;
+            padding-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <form >
+        <label style="background-color: rgb(10, 66, 118);" for="Personal" name="Personal">Personal Data</label>
+        <br><br><br>
+            <label for="yourname" name="yourname"id="yourname">Your Name</label><br>
+            <div class="data">
+                <br><br><br>
+                <label name="first" for="first">First Name  :</label>
+                <input type="text" name="first" placeholder="ex.ahmed"><br><br>
+                <label name="second" for="Second" >Second Name  :</label>
+                <input type="text" name="second"placeholder="ex.bahnasy"><br><br>
+            </div><br><br><br>
+            <table><tr>
+          <td> <label for="phone">Your Phone  :</label></td> 
+          <td>  <input type="number"name="phone"></td>
+        </tr>
+            <tr>
+           <td><label  for="mail">Email:</label></td> 
+           <td> <input type="email" name="mail"></td>
+        </tr>
+        <tr>
+            <td><label  for="pass">Password:</label></td> 
+            <td> <input type="password"name="pass"></td>
+         </tr>
+         <tr>
+            <td><label  for="re-pass">re_Password:</label></td> 
+            <td> <input type="password" name="re-pass"></td>
+         </tr>
+        </table>
+        <br><br><br><br>
+        <input type="radio" name="male">
+        <label for="male">Male</label>
+        <br>
+        <input type="radio" name="female">
+        <label for="female">Female</label>
+        <br><br><br>
+        <input type="checkbox" name="student">
+        <label for="student">Student</label>
+        <br>
+        <input type="checkbox" name="graduated">
+        <label for="graduated">Graduated</label>
+        <br><br><br>
+        <select name="country">
+            <option selected>AUC</option>
+            <option>cairo</option>
+        </select><br><br><br>
+        <button style="background-color:black">
+        <a href="./index.html"  style="text-decoration: none; color:azure" >Submit</a>
+    </button>
+    </form>
+
+    
+</body>
+</html>
